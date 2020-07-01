@@ -1,0 +1,49 @@
+[
+  {
+    "type": "escape",
+    "width": 64,
+    "align": "left",
+    "bordered": false
+  },
+  // {
+  //   "type": "staticButton",
+  //   "title": "shake",
+  //   "action": "shellScript",
+  //   "executablePath": "/Users/louis/Dev/mtmr/light.sh",
+  //   "align": "left",
+  //   "bordered": true
+  // },
+  {
+    "type": "previous",
+    "align": "right",
+    "bordered": false
+  },
+  {
+    "type": "play",
+    "align": "right",
+    "bordered": false
+  },
+  {
+    "type": "next",
+    "align": "right",
+    "bordered": false
+  },
+  {
+    "type": "battery",
+    "align": "right",
+    "bordered": false,
+    "longAction": "shellScript",
+    "longExecutablePath": "/usr/bin/pmset",
+    "longShellArguments": ["displaysleepnow"]
+  }
+  // {
+  //   "type": "timeButton",
+  //   "formatTemplate": "HH:mm",
+  //   "align": "right",
+  //   "bordered": false,
+  //   "width": 64,
+  //   "longAction": "shellScript",
+  //   "longExecutablePath": "/usr/bin/pmset",
+  //   "longShellArguments": ["displaysleepnow"]
+  // }
+]
